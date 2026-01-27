@@ -1,5 +1,5 @@
 # 📌 Objetivo do Repositório
-Este repositório tem como objetivo o **estudo prático de Design Patterns em C#**, com foco em** problemas reais de design de software**, e não apenas em exemplos teóricos.
+Este repositório tem como objetivo o **estudo prático de Design Patterns em C#**, com foco em **problemas reais de design de software**, e não apenas em exemplos teóricos.
 
 Cada padrão é apresentado seguindo a mesma abordagem:
 
