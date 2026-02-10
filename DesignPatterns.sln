@@ -4,9 +4,9 @@ VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "factory", "factory", "{1A05CECA-3455-6868-ADAC-E31E3159CA81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "problem", "factory\problem\problem.csproj", "{9B3F97EB-1F29-BA72-406C-3200AE2604AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "problem", "Patterns\factory\problem\problem.csproj", "{9B3F97EB-1F29-BA72-406C-3200AE2604AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solution", "factory\solution\solution.csproj", "{B9FAD11D-8DE7-A4A7-8BAF-52252AA07892}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solution", "Patterns\factory\solution\solution.csproj", "{B9FAD11D-8DE7-A4A7-8BAF-52252AA07892}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
