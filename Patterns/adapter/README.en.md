@@ -22,7 +22,7 @@ The Adapter creates a translation layer between the interface used by the applic
 In the example:
 
 - `INotificationService` defines the common operation `SendNotification(string message)`
-- `ExpoPushAdapter` and `FirebassePushAdapter` implement that interface
+- `ExpoPushAdapter` and `FirebasePushAdapter` implement that interface
 - `NotificationService` accepts any `INotificationService` and delegates the call
 
 That way, the client always uses the same interface and the adapters encapsulate the incompatibility of each provider.
@@ -35,3 +35,8 @@ Use Adapter when:
 - You need to integrate a external or legacy class with different interfaces used by your system.
 - You want avoid that client code depends directly from specif APIs.
 - You wish change implentation without change the service interface.
+
+### When NOT to use
+
+Do not use Adapter when all implementations already share the same interface or when there is no incompatibility to bridge.
+In that case, the Adapter would add unnecessary complexity without providing real benefits.

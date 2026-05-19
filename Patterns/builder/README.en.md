@@ -16,3 +16,13 @@ In both cases, the code grows in complexity without becoming clearer.
 With the Builder, we remove the problem of **overloads** by separating the construction logic from the business rules of the class, following the Single Responsibility Principle.
 
 In addition, the pattern allows us to create multiple variations of the same object and build only the necessary parts, without forcing the client to know the internal details of how the object is assembled.
+
+### When NOT to use
+
+Do not use Builder when the object is simple and has few required parameters.
+In that case, a traditional constructor is more direct and less verbose.
+
+Builder is worth it when:
+- there are many optional parameters
+- construction involves multiple steps
+- you need multiple variations of the same object

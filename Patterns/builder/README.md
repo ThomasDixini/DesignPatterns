@@ -25,3 +25,13 @@ de construção da regra de negócio da classe, seguindo o princípio de respons
 Além disso, o pattern permite criar múltiplas variações do mesmo objeto e construir 
 apenas as partes necessárias, sem forçar o cliente a conhecer os detalhes internos 
 de como o objeto é montado.
+
+### Quando NÃO usar
+
+Não use Builder quando o objeto é simples e possui poucos parâmetros obrigatórios.
+Nesse caso, um construtor tradicional é mais direto e menos verboso.
+
+O Builder vale quando:
+- há muitos parâmetros opcionais
+- a construção envolve múltiplas etapas
+- você precisa de múltiplas variações do mesmo objeto

@@ -7,5 +7,5 @@ expoAdapter.SendNotification("Hello from Expo!");
 
 Console.WriteLine("--------------------------");
 
-var firebaseAdapter = new NotificationService(new FirebassePushAdapter());
+var firebaseAdapter = new NotificationService(new FirebasePushAdapter());
 firebaseAdapter.SendNotification("Hello from Firebase!");

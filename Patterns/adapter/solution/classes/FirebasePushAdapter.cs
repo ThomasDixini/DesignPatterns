@@ -6,9 +6,9 @@ using solution.interfaces;
 
 namespace solution.classes
 {
-    public class FirebassePushAdapter : INotificationService
+    public class FirebasePushAdapter : INotificationService
     {
-        public FirebassePushAdapter() 
+        public FirebasePushAdapter() 
         {
             // DI can be used here to inject the third-party service
             // Here we would initialize the Firebase Cloud Messaging, e.g., setting up API keys, etc.

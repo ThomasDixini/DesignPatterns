@@ -23,7 +23,7 @@ do provedor.
 No exemplo:
 
 - `INotificationService` define a operação comum `SendNotification(string message)`
-- `ExpoPushAdapter` e `FirebassePushAdapter` implementam essa interface
+- `ExpoPushAdapter` e `FirebasePushAdapter` implementam essa interface
 - `NotificationService` recebe qualquer `INotificationService` e delega a chamada
 
 Assim, o cliente usa sempre a mesma interface e os adaptadores encapsulam a incompatibilidade de cada provedor.
